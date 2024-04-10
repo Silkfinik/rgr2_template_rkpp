@@ -2,30 +2,31 @@
 #include "KPolynomial.h"
 
 int main() {
-  // KPolynomial<double> a(4);
-  // a.setElem(0, 1.5);
-  // a.setElem(1, -4);
-  // a.setElem(2, 4);
-  // a.setElem(3, -8);
-  // KPolynomial<double> b(2);
-  // b.setElem(0, 1);
-  // b.setElem(1, 2);
-  // std::cout << b.Degree() << std::endl;
+  KPolynomial<double> a(4);
+  a.setElem(0, 1.5);
+  a.setElem(1, -4);
+  a.setElem(2, 4);
+  a.setElem(3, -8);
+  KPolynomial<double> b(2);
+  b.setElem(0, 1);
+  b.setElem(1, 2);
+  std::cout << "a polynomial: " << a << std::endl;
+  std::cout << "index -8 element in a polynomial: " << find2<double>(a, -8)
+            << std::endl;
+  std::cout << std::endl;
+  std::cout << "b polynomial: " << b << std::endl;
+  std::cout << "b polynomial degree: " << b.Degree() << std::endl;
+  std::cout << std::endl;
 
-  // std::cout << a << std::endl;
-  // std::cout << find2<double>(a, -8) << std::endl;
-  // std::cout << b << std::endl;
-  // std::cout << std::endl;
+  KPolynomial<double> c = a * b;
+  std::cout << "c polynomial(a * b): " << c << std::endl;
 
-  // KPolynomial c = a * b;
-  // std::cout << c << std::endl;
+  a *= b;
+  std::cout << "a polynomial (a *= b): " << a << std::endl;
 
-  // a *= b;
-  // std::cout << a << std::endl;
+  std::cout << "a polynomial coefficient quantity: " << a.Count() << std::endl;
 
-  // std::cout << a.Count() << std::endl;
-
-  // std::cout << "\n\n";
+  std::cout << "\n\n";
 
   MyClass temp1(-1);
   MyClass temp2(2);

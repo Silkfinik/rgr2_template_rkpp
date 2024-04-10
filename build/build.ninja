@@ -56,13 +56,6 @@ build CMakeFiles/rgr2_template.dir/main.cpp.o: CXX_COMPILER__rgr2_template_Debug
   OBJECT_DIR = CMakeFiles/rgr2_template.dir
   OBJECT_FILE_DIR = CMakeFiles/rgr2_template.dir
 
-build CMakeFiles/rgr2_template.dir/src/KPolynomial.cpp.o: CXX_COMPILER__rgr2_template_Debug /home/silkfinik/VS$ Code/cpp/rgr2_template_rkpp/src/KPolynomial.cpp || cmake_object_order_depends_target_rgr2_template
-  DEP_FILE = CMakeFiles/rgr2_template.dir/src/KPolynomial.cpp.o.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"/home/silkfinik/VS Code/cpp/rgr2_template_rkpp/include"
-  OBJECT_DIR = CMakeFiles/rgr2_template.dir
-  OBJECT_FILE_DIR = CMakeFiles/rgr2_template.dir/src
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target rgr2_template
@@ -71,7 +64,7 @@ build CMakeFiles/rgr2_template.dir/src/KPolynomial.cpp.o: CXX_COMPILER__rgr2_tem
 #############################################
 # Link the executable rgr2_template
 
-build rgr2_template: CXX_EXECUTABLE_LINKER__rgr2_template_Debug CMakeFiles/rgr2_template.dir/main.cpp.o CMakeFiles/rgr2_template.dir/src/KPolynomial.cpp.o
+build rgr2_template: CXX_EXECUTABLE_LINKER__rgr2_template_Debug CMakeFiles/rgr2_template.dir/main.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/rgr2_template.dir
   POST_BUILD = :
