@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/silkfinik/VS Code/cpp/rgr2_template_rkpp/build",
+  "command": "/usr/bin/clang++ -I\"/home/silkfinik/VS Code/cpp/rgr2_template_rkpp/include\" -g -std=gnu++17 -o CMakeFiles/rgr2_template.dir/main.cpp.o -c \"/home/silkfinik/VS Code/cpp/rgr2_template_rkpp/main.cpp\"",
+  "file": "/home/silkfinik/VS Code/cpp/rgr2_template_rkpp/main.cpp"
+},
+{
+  "directory": "/home/silkfinik/VS Code/cpp/rgr2_template_rkpp/build",
+  "command": "/usr/bin/clang++ -I\"/home/silkfinik/VS Code/cpp/rgr2_template_rkpp/include\" -g -std=gnu++17 -o CMakeFiles/rgr2_template.dir/src/KPolynomial.cpp.o -c \"/home/silkfinik/VS Code/cpp/rgr2_template_rkpp/src/KPolynomial.cpp\"",
+  "file": "/home/silkfinik/VS Code/cpp/rgr2_template_rkpp/src/KPolynomial.cpp"
+}
+]
